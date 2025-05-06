@@ -13,18 +13,19 @@ print("Deal list element with list comprehension")
 results = [n * 100 for n in numbers if n % 2 == 0]
 print(results)
 
-def remove_odd_mul_100(numbers):
-    results = []
+def remove_odd_mul_100(numbers:list[int]) -> list[int]:
+    results :list[int] = []
     for number in numbers:
         if number % 2 == 1:
             continue
         results.append(number * 100)
     return results
+
 print("Deal list element with function remove_odd_mul_100()")
 print(remove_odd_mul_100(numbers))
 
 # Add element to list
-def add_list(in_func_obj):
+def add_list(in_func_obj :list[str]):
     print(f'In add [before]: {in_func_obj} = "{in_func_obj}"')
     in_func_obj += ['baz']
     print(f'In add [after]: {in_func_obj} = "{in_func_obj}"')
