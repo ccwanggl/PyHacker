@@ -7,3 +7,6 @@
 [submodule "vendor/crawl4ai"]
 	path = vendor/crawl4ai
 	url = https://github.com/unclecode/crawl4ai.git
+[submodule "vendor/scientific-python-lectures"]
+	path = vendor/scientific-python-lectures
+	url = https://github.com/ccwanggl/scientific-python-lectures.git
