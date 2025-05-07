@@ -5,5 +5,6 @@
     <mapping directory="$PROJECT_DIR$/vendor/FastAPI" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/vendor/Python-100-Days" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/vendor/crawl4ai" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/scientific-python-lectures" vcs="Git" />
   </component>
 </project>

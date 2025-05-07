@@ -1,3 +1,15 @@
+colors = ['red', 'blue', 'green', 'black', 'white']
+colors.append('pink')
+colors.pop()
+colors.extend(['pink', 'purple'])
+# slicing
+# colors[start:stop:stride]
+# start <= i < stop, colors[start:stop] has (stop - start) elements
+
+rcolors = colors[::-1]
+rcolors2 = list(colors)                     # new object that is a copy of colors in a different memory area
+rcolors2.reverse()                          # in-place; reversing rcolors2 does not affect colors
+
 courses = ['Math', 'Physical', 'Educational']
 
 # Index start with default and get index of the list
