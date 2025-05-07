@@ -1,0 +1,1 @@
+The core tool for performant numerical computing with Python
