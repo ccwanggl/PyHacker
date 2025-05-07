@@ -1,3 +1,10 @@
+str1 = 'Hello, how are you?'
+str2 = "Hi, what's up"
+str3 = '''Hello, 
+          how are you?'''
+str4 = """Hi,
+            what's up?"""
+
 def add_str(in_func_obj):
     print(f'In add [before]: in_func_obj = "{in_func_obj}"')
     in_func_obj += ' suffix'
