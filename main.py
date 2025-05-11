@@ -1,8 +1,7 @@
-def main():
-    print("Hello from pyhacker!")
+import sys
 
-def test():
-    pass
+def main():
+    print(sys.executable)
 
 
 if __name__ == "__main__":
