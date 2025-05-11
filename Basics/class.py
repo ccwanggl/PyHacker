@@ -2,7 +2,7 @@
 def test():
     print('in test function')
 
-def disk_area(radius):
+def disk_area(radius:float) -> float:
     return 3.14 * radius ** 2
 
 # Default values are evaluated when the function is defined, not when it is called. This can be problematic when using mutable types
