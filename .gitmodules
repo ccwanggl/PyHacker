@@ -10,3 +10,6 @@
 [submodule "vendor/scientific-python-lectures"]
 	path = vendor/scientific-python-lectures
 	url = https://github.com/ccwanggl/scientific-python-lectures.git
+[submodule "vendor/ultimate-python"]
+	path = vendor/ultimate-python
+	url = https://github.com/huangsam/ultimate-python.git
